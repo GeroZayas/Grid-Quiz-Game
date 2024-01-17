@@ -1,0 +1,47 @@
+
+        **********************
+        *** GRID QUIZ GAME ***
+        **********************
+                    Gero Zayas
+             17th January 2024
+
+-------------------
+Ideas for the game:
+-------------------
+* Purpose of the game: Create a 5x5 grid (or similar [user determined]) in which each square is going to have either a quiz question or a surprise (+ bonuses, -bombs). The placement of questions and surprises is going to be randomly selected.
+
+INPUT: [CONTENT] Quiz questions for the game - manually or by importing a csv or json file (or similar)
+
+OUTPUT: A Pdf or Image with the Grid indicating where the Bonuses and Bombs are.
+
+-------------------------------------
+
+-------
+Design:
+-------
+- Read from csv file and from json file:
+
+class Reader:
+...
+    def csv_reader():
+    ...
+    def json_reader():
+    ...
+
+- Input questions manually:
+    - in bulk separated by commas or one by one 
+
+- Generate the grid:
+    class GridGenerator:
+    ...
+
+- Export the grid to pdf or image:
+    class GridExporter:
+    ...
+
+- Generate Surprises (bonuses and bombs)
+
+- CLI interface 
+
+- GUI interface 
+
